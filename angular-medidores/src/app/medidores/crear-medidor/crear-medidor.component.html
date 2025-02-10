@@ -1,1 +1,13 @@
 <h2>Crear Medidor</h2>
+<form (submit)="guardarCambios()" [formGroup]="form">
+    <mat-form-field appearance="outline">
+        <mat-label>Número de Medidor</mat-label>
+        <input matInput [formControl]="form.controls.numeroMedidor" />
+        <mat-error>{{obtenerErrorCampoNumeroMedidor()}}</mat-error>
+    </mat-form-field>
+    <div class="contenedor-botones">
+        <button mat-flat-button type="button" (click)="guardarCambios()"
+        [disabled]="form.invalid">Guardar Cambios</button>
+        <a mat-stroked-button routerLink="/medidores/medidores">Cancelar</a>
+    </div>
+</form>
