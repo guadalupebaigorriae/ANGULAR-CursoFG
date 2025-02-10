@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedidoresApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51e1e85e0dd035aa2ba2c1d5fe15161211a06090")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedidoresApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedidoresApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
