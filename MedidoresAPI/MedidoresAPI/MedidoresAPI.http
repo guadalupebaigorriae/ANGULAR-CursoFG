@@ -1,0 +1,6 @@
+@MedidoresAPI_HostAddress = http://localhost:5135
+
+GET {{MedidoresAPI_HostAddress}}/api/medidores/
+Accept: application/json
+
+###
