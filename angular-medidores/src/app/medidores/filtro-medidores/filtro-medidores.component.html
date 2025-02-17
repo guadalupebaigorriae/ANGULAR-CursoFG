@@ -1,0 +1,27 @@
+<h1>Buscar Medidores</h1>
+
+<form [formGroup]="form">
+    <mat-form-field appearance="outline">
+        <mat-label>Medidor</mat-label>
+        <input matInput [formControl]="form.controls.numeroDeMedidor" />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Medidor</mat-label>
+        <mat-select [formControl]="form.controls.numeroDeMedidor">
+            <mat-option [value]="0">Seleccione un medidor</mat-option>
+            @for (medidor of medidores; track $index){
+                <mat-option [value]="medidor.numeroMedidor">{{medidor.numeroMedidor}}</mat-option>
+            }
+        </mat-select>
+    </mat-form-field>
+</form>
+<table mat-table [dataSource]="medidores"> 
+
+    <ng-container matColumnDef="numeroMedidor">
+      <th mat-header-cell *matHeaderCellDef> Número de Medidor </th>
+      <td mat-cell *matCellDef="let element"> {{element.numeroMedidor}} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
