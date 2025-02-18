@@ -20,4 +20,8 @@ export class MedidoresService {
   public crear(medidor: MedidorCreacionDTO){
     return this.http.post(this.urlBase, medidor);
   }
+
+  public getMedidores(): Observable<MedidorDTO[]> {
+    return this.http.get<MedidorDTO[]>(this.urlBase); 
+  }
 }

@@ -3,6 +3,7 @@ using MedidoresAPI.Infrastructure;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using MedidoresAPI.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 
 namespace MedidoresAPI.Controllers
 {
@@ -20,11 +21,12 @@ namespace MedidoresAPI.Controllers
         }
 
         [HttpGet]
-        public List<MedidoresEtty> Get()
+        public async Task<List<MedidoresEtty>> Get()
         {
-            var repositorio = new RepositorioEnMemoria();
-            var medidores = repositorio.ObtenerMedidoresAll();
-            return medidores;
+            return await context.Medidores.ToListAsync();
+            //var repositorio = new RepositorioEnMemoria();
+            //var medidores = repositorio.ObtenerMedidoresAll();
+            //return medidores;
         }
 
         [HttpGet("{id}", Name = "ObtenerMedidorPorId")]

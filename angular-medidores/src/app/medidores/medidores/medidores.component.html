@@ -1,1 +1,26 @@
 <button mat-flat-button type="button" routerLink="/medidores/crear-medidor">Crear Medidor</button>
+<table mat-table [dataSource]="dataSource"> 
+
+    <ng-container matColumnDef="numeroMedidor"> 
+      <th mat-header-cell *matHeaderCellDef> Numero de Medidor </th>
+      <td mat-cell *matCellDef="let element"> {{element.numeroMedidor}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="modelo"> 
+      <th mat-header-cell *matHeaderCellDef> Modelo </th>
+      <td mat-cell *matCellDef="let element"> {{element.modelo}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="sgc"> 
+      <th mat-header-cell *matHeaderCellDef> SGC </th>
+      <td mat-cell *matCellDef="let element"> {{element.sgc}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="asignadoa"> 
+      <th mat-header-cell *matHeaderCellDef> Asignado a </th>
+      <td mat-cell *matCellDef="let element"> {{element.asignadoa}} </td> 
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
