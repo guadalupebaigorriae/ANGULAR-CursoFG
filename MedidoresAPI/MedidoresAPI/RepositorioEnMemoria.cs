@@ -2,7 +2,7 @@
 
 namespace MedidoresAPI
 {
-    public class RepositorioEnMemoria
+    public class RepositorioEnMemoria : IRepositorioEnMemoria
     {
         private List<MedidoresEtty> _medidores;
 

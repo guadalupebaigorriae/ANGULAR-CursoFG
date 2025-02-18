@@ -33,3 +33,6 @@ C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Cur
 C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\obj\Debug\net9.0\MedidoresAPI.pdb
 C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\obj\Debug\net9.0\MedidoresAPI.genruntimeconfig.cache
 C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\obj\Debug\net9.0\ref\MedidoresAPI.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

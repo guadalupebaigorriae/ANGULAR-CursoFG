@@ -7,6 +7,13 @@ namespace MedidoresAPI.Controllers
     [Route("api/[controller]")]
     public class MedidoresController: ControllerBase
     {
+        private readonly IRepositorioEnMemoria repositorio;
+
+        public MedidoresController(IRepositorioEnMemoria repositorio)
+        {
+            this.repositorio = repositorio;
+        }
+
         [HttpGet]
         public List<MedidoresEtty> Get()
         {
