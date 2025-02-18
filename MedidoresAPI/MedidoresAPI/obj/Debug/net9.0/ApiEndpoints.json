@@ -21,6 +21,32 @@
   },
   {
     "ContainingType": "MedidoresAPI.Controllers.MedidoresController",
+    "Method": "GetById",
+    "RelativePath": "api/Medidores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroMedidor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MedidoresAPI.Entidades.MedidoresEtty",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MedidoresAPI.Controllers.MedidoresController",
     "Method": "Post",
     "RelativePath": "api/Medidores",
     "HttpMethod": "POST",
