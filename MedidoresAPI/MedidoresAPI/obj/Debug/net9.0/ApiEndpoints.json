@@ -20,6 +20,38 @@
     ]
   },
   {
+    "ContainingType": "MedidoresAPI.Controllers.MedidoresController",
+    "Method": "Post",
+    "RelativePath": "api/Medidores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medidor",
+        "Type": "MedidoresAPI.Entidades.MedidoresEtty",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MedidoresAPI.Controllers.MedidoresController",
+    "Method": "PutMedidores",
+    "RelativePath": "api/Medidores",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevosMedidores",
+        "Type": "System.Collections.Generic.List\u00601[[MedidoresAPI.Entidades.MedidoresEtty, MedidoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MedidoresAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

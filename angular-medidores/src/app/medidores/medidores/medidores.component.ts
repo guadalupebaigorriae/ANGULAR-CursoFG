@@ -1,6 +1,7 @@
-import { Component, OnInit, Output } from '@angular/core';
+import { Component, inject, OnInit, Output } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterLink } from '@angular/router';
+import { MedidoresService } from '../medidores.service';
 
 @Component({
   selector: 'app-medidores',
@@ -9,6 +10,13 @@ import { RouterLink } from '@angular/router';
   styleUrl: './medidores.component.css'
 })
 export class MedidoresComponent {
-  
+  medidoresService = inject(MedidoresService)
+
+  constructor(){
+    this.medidoresService.obtenerTodos().subscribe(medidores =>{
+      console.log(medidores);
+    })
+    
+  }
 
 }
