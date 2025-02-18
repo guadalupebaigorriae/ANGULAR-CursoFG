@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[MedidoresAPI.Entidades.MedidoresEtty, MedidoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[MedidoresAPI.Entidades.MedidoresEtty, MedidoresAPI.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -45,7 +45,7 @@
     "Parameters": [
       {
         "Name": "nuevosMedidores",
-        "Type": "System.Collections.Generic.List\u00601[[MedidoresAPI.Entidades.MedidoresEtty, MedidoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[MedidoresAPI.Entidades.MedidoresEtty, MedidoresAPI.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

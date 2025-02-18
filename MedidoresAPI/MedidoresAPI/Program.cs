@@ -1,22 +1,30 @@
 using MedidoresAPI;
+using MedidoresAPI.Infrastructure;
 using MedidoresAPI.Modules;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddSwagger();
 builder.Services.AddSingleton<IRepositorioEnMemoria, RepositorioEnMemoria>();
 
+builder.Services.AddMyServices(builder.Configuration);
+//builder.Services.AddDbContext<ApplicationDbContext>(opciones => opciones.UseSqlServer("name=DefaultConnection"));
 var origenesPermitidos = builder.Configuration.GetValue<string>("origenesPermitidos")!.Split(",");
+
 builder.Services.AddCors(opciones =>
 {
     opciones.AddDefaultPolicy(opcionesCORS =>
     {
-        opcionesCORS.WithOrigins(origenesPermitidos).AllowAnyMethod().AllowAnyHeader();
+        opcionesCORS.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+        //opcionesCORS.WithOrigins(origenesPermitidos).AllowAnyMethod().AllowAnyHeader();
     });
 });
 

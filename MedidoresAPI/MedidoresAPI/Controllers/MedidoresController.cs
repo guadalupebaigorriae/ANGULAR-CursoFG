@@ -1,4 +1,5 @@
 ﻿using MedidoresAPI.Entidades;
+using MedidoresAPI.Infrastructure;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 

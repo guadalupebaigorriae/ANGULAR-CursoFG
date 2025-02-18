@@ -1,3 +1,4 @@
+using MedidoresAPI.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MedidoresAPI.Controllers

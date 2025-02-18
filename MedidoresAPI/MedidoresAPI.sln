@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidoresAPI", "MedidoresAPI\MedidoresAPI.csproj", "{6C7CD319-6449-4EC6-8670-99C76219E604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidoresAPI.Entidades", "MedidoresAPI.Entidades\MedidoresAPI.Entidades.csproj", "{CA54A1FC-AF11-46EC-A839-60823095BD55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidoresAPI.Infrastructure", "MedidoresAPI.Infrastructure\MedidoresAPI.Infrastructure.csproj", "{C4C08F02-C883-466F-A70D-EA3E262EE519}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6C7CD319-6449-4EC6-8670-99C76219E604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C7CD319-6449-4EC6-8670-99C76219E604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C7CD319-6449-4EC6-8670-99C76219E604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA54A1FC-AF11-46EC-A839-60823095BD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA54A1FC-AF11-46EC-A839-60823095BD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA54A1FC-AF11-46EC-A839-60823095BD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA54A1FC-AF11-46EC-A839-60823095BD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C08F02-C883-466F-A70D-EA3E262EE519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C08F02-C883-466F-A70D-EA3E262EE519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C08F02-C883-466F-A70D-EA3E262EE519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C08F02-C883-466F-A70D-EA3E262EE519}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

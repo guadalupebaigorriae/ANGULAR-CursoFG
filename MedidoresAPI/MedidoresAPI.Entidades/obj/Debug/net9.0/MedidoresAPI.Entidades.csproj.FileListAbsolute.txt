@@ -1,0 +1,12 @@
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\bin\Debug\net9.0\MedidoresAPI.Entidades.deps.json
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\bin\Debug\net9.0\MedidoresAPI.Entidades.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\bin\Debug\net9.0\MedidoresAPI.Entidades.pdb
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\obj\Debug\net9.0\MedidoresAPI.Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\obj\Debug\net9.0\MedidoresAPI.Entidades.AssemblyInfoInputs.cache
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\obj\Debug\net9.0\MedidoresAPI.Entidades.AssemblyInfo.cs
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\obj\Debug\net9.0\MedidoresAPI.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\obj\Debug\net9.0\MedidoresAPI.Entidades.sourcelink.json
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\obj\Debug\net9.0\MedidoresAPI.Entidades.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\obj\Debug\net9.0\refint\MedidoresAPI.Entidades.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\obj\Debug\net9.0\MedidoresAPI.Entidades.pdb
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.Entidades\obj\Debug\net9.0\ref\MedidoresAPI.Entidades.dll
