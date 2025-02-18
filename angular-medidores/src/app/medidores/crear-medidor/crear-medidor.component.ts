@@ -5,6 +5,8 @@ import { Router, RouterLink } from '@angular/router';
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
 import { soloNumerosValidator } from '../../Compartidos/Funciones/validaciones';
+import { MedidoresService } from '../medidores.service';
+import { MedidorCreacionDTO } from '../medidores';
 
 @Component({
   selector: 'app-crear-medidor',
@@ -13,15 +15,22 @@ import { soloNumerosValidator } from '../../Compartidos/Funciones/validaciones';
   styleUrl: './crear-medidor.component.css'
 })
 export class CrearMedidorComponent {
-  router = inject(Router);
+  private router = inject(Router);
+  private medidoresService = inject(MedidoresService);
 
   private formbuilder = inject(FormBuilder);
 
   form = this.formbuilder.group({
-    numeroMedidor: ['', {validators: [Validators.required, soloNumerosValidator]}]
-  })
+    numeroMedidor: [''], 
+    modelo: [''], 
+    sgc: [''], 
+    asignadoACliente: [null] 
+  });
   guardarCambios(){
-    this.router.navigate(['/medidores/medidores'])
+    const medidor = this.form.value as MedidorCreacionDTO; 
+    this.medidoresService.crear(medidor).subscribe(() => {
+      this.router.navigate(['/medidores/medidores'])
+    });
   }
 
   obtenerErrorCampoNumeroMedidor(): string {

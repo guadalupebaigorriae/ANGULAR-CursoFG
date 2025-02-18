@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { MedidorDTO } from './medidores';
+import { MedidorCreacionDTO, MedidorDTO } from './medidores';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment.development';
@@ -15,5 +15,9 @@ export class MedidoresService {
 
   public obtenerTodos(): Observable<MedidorDTO[]>{
     return this.http.get<MedidorDTO[]>(this.urlBase);
+  }
+
+  public crear(medidor: MedidorCreacionDTO){
+    return this.http.post(this.urlBase, medidor);
   }
 }

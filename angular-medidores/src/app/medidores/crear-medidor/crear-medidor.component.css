@@ -1,12 +1,37 @@
-.contenedor-botones{
-    margin-top:1rem;
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.formulario {
+    width: 50%;
+    display: flex; /* Agregamos flex al contenedor del formulario */
+    flex-direction: column; /* Mantenemos la dirección de columna */
+    align-items: center; /* Centramos los elementos dentro del formulario */
+    background-color: white;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-wrapper {
+    background-color: white;
+    color: black;
+}
+
+.contenedor-botones {
+    margin-top: 1rem;
 }
 
 button {
-    margin-right:1rem;
+    background-color: lightblue;
+    display: block;
 }
 
-mat-form-field{
-    width: 100%;
-    max-width: 500px;
+h2{
+    align-items: center;
+}
+
+.row{
+    background-color: lightblue;
 }
