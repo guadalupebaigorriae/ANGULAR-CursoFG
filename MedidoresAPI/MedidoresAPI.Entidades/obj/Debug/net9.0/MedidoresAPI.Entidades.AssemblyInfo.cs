@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedidoresAPI.Entidades")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2747706fc54a3a06854bec6ace99180c5367f6fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5d3b708812b159c040835723d5f8cd87743120f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedidoresAPI.Entidades")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedidoresAPI.Entidades")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

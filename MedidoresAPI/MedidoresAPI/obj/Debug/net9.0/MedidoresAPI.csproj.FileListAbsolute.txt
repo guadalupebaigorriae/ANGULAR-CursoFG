@@ -161,3 +161,6 @@ C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Cur
 C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\bin\Debug\net9.0\MedidoresAPI.DTO.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI\bin\Debug\net9.0\MedidoresAPI.DTO.pdb

@@ -16,6 +16,8 @@ builder.Services.AddSwagger();
 builder.Services.AddSingleton<IRepositorioEnMemoria, RepositorioEnMemoria>();
 
 builder.Services.AddMyServices(builder.Configuration);
+
+builder.Services.AddAutoMapper(typeof(Program));
 //builder.Services.AddDbContext<ApplicationDbContext>(opciones => opciones.UseSqlServer("name=DefaultConnection"));
 var origenesPermitidos = builder.Configuration.GetValue<string>("origenesPermitidos")!.Split(",");
 

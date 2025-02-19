@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "medidor",
-        "Type": "MedidoresAPI.Entidades.MedidoresEtty",
+        "Type": "MedidoresAPI.DTO.MedidoresCreateDTO",
         "IsRequired": true
       }
     ],

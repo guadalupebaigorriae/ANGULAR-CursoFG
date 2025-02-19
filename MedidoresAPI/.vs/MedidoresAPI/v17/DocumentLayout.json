@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|solutionrelative:medidoresapi\\controllers\\medidorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4C08F02-C883-466F-A70D-EA3E262EE519}|MedidoresAPI.Infrastructure\\MedidoresAPI.Infrastructure.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi.infrastructure\\migrations\\20250218170041_tablamedidores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4C08F02-C883-466F-A70D-EA3E262EE519}|MedidoresAPI.Infrastructure\\MedidoresAPI.Infrastructure.csproj|solutionrelative:medidoresapi.infrastructure\\migrations\\20250218170041_tablamedidores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|solutionrelative:medidoresapi\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F41667-C921-4549-9E73-B43E7AA3E32D}|MedidoresAPI.DTO\\MedidoresAPI.DTO.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi.dto\\medidorescreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67F41667-C921-4549-9E73-B43E7AA3E32D}|MedidoresAPI.DTO\\MedidoresAPI.DTO.csproj|solutionrelative:medidoresapi.dto\\medidorescreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA54A1FC-AF11-46EC-A839-60823095BD55}|MedidoresAPI.Entidades\\MedidoresAPI.Entidades.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi.entidades\\medidoresetty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +23,20 @@
       "RelativeMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|solutionrelative:medidoresapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4C08F02-C883-466F-A70D-EA3E262EE519}|MedidoresAPI.Infrastructure\\MedidoresAPI.Infrastructure.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4C08F02-C883-466F-A70D-EA3E262EE519}|MedidoresAPI.Infrastructure\\MedidoresAPI.Infrastructure.csproj|solutionrelative:medidoresapi.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4C08F02-C883-466F-A70D-EA3E262EE519}|MedidoresAPI.Infrastructure\\MedidoresAPI.Infrastructure.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4C08F02-C883-466F-A70D-EA3E262EE519}|MedidoresAPI.Infrastructure\\MedidoresAPI.Infrastructure.csproj|solutionrelative:medidoresapi.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi\\medidoresapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|solutionrelative:medidoresapi\\medidoresapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C08F02-C883-466F-A70D-EA3E262EE519}|MedidoresAPI.Infrastructure\\MedidoresAPI.Infrastructure.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi.infrastructure\\migrations\\20250218170041_tablamedidores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C08F02-C883-466F-A70D-EA3E262EE519}|MedidoresAPI.Infrastructure\\MedidoresAPI.Infrastructure.csproj|solutionrelative:medidoresapi.infrastructure\\migrations\\20250218170041_tablamedidores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C08F02-C883-466F-A70D-EA3E262EE519}|MedidoresAPI.Infrastructure\\MedidoresAPI.Infrastructure.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C08F02-C883-466F-A70D-EA3E262EE519}|MedidoresAPI.Infrastructure\\MedidoresAPI.Infrastructure.csproj|solutionrelative:medidoresapi.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -51,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|solutionrelative:medidoresapi\\medidoresapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi\\medidoresapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|solutionrelative:medidoresapi\\medidoresapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|c:\\users\\gbaigorria\\onedrive - cashpower sudamericana s.a\\documents\\trabajos\\curso-angular-felipegavilan\\medidoresapi\\medidoresapi\\modules\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C7CD319-6449-4EC6-8670-99C76219E604}|MedidoresAPI\\MedidoresAPI.csproj|solutionrelative:medidoresapi\\modules\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -66,25 +74,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\Program.cs",
               "RelativeDocumentMoniker": "MedidoresAPI\\Program.cs",
               "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\Program.cs",
               "RelativeToolTip": "MedidoresAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T18:20:31.605Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -94,7 +98,7 @@
               "RelativeDocumentMoniker": "MedidoresAPI\\Controllers\\MedidoresController.cs",
               "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\Controllers\\MedidoresController.cs",
               "RelativeToolTip": "MedidoresAPI\\Controllers\\MedidoresController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwBcAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwDYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T18:29:53.474Z",
               "EditorCaption": ""
@@ -102,6 +106,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\Utilities\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "MedidoresAPI\\Utilities\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\Utilities\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "MedidoresAPI\\Utilities\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:49:01.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedidoresCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.DTO\\MedidoresCreateDTO.cs",
+              "RelativeDocumentMoniker": "MedidoresAPI.DTO\\MedidoresCreateDTO.cs",
+              "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.DTO\\MedidoresCreateDTO.cs",
+              "RelativeToolTip": "MedidoresAPI.DTO\\MedidoresCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:57:59.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedidoresEtty.cs",
+              "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Entidades\\MedidoresEtty.cs",
+              "RelativeDocumentMoniker": "MedidoresAPI.Entidades\\MedidoresEtty.cs",
+              "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Entidades\\MedidoresEtty.cs",
+              "RelativeToolTip": "MedidoresAPI.Entidades\\MedidoresEtty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T14:34:14.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MedidoresAPI.Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MedidoresAPI.Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:57:14.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedidoresAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\MedidoresAPI.csproj",
+              "RelativeDocumentMoniker": "MedidoresAPI\\MedidoresAPI.csproj",
+              "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\MedidoresAPI.csproj",
+              "RelativeToolTip": "MedidoresAPI\\MedidoresAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-17T18:13:18.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "20250218170041_TablaMedidores.cs",
               "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Infrastructure\\Migrations\\20250218170041_TablaMedidores.cs",
               "RelativeDocumentMoniker": "MedidoresAPI.Infrastructure\\Migrations\\20250218170041_TablaMedidores.cs",
@@ -114,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Infrastructure\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "MedidoresAPI.Infrastructure\\ServiceExtensions.cs",
@@ -127,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\appsettings.json",
               "RelativeDocumentMoniker": "MedidoresAPI\\appsettings.json",
@@ -140,20 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "MedidoresAPI.Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeToolTip": "MedidoresAPI.Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:57:14.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "IRepositorioEnMemoria.cs",
               "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Infrastructure\\IRepositorioEnMemoria.cs",
               "RelativeDocumentMoniker": "MedidoresAPI.Infrastructure\\IRepositorioEnMemoria.cs",
@@ -166,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "RepositorioEnMemoria.cs",
               "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Infrastructure\\RepositorioEnMemoria.cs",
               "RelativeDocumentMoniker": "MedidoresAPI.Infrastructure\\RepositorioEnMemoria.cs",
@@ -179,32 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MedidoresEtty.cs",
-              "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Entidades\\MedidoresEtty.cs",
-              "RelativeDocumentMoniker": "MedidoresAPI.Entidades\\MedidoresEtty.cs",
-              "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI.Entidades\\MedidoresEtty.cs",
-              "RelativeToolTip": "MedidoresAPI.Entidades\\MedidoresEtty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T14:34:14.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MedidoresAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\MedidoresAPI.csproj",
-              "RelativeDocumentMoniker": "MedidoresAPI\\MedidoresAPI.csproj",
-              "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\MedidoresAPI.csproj",
-              "RelativeToolTip": "MedidoresAPI\\MedidoresAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-17T18:13:18.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "MedidoresAPI\\Controllers\\WeatherForecastController.cs",
@@ -217,18 +252,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "MedidoresAPI",
               "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\MedidoresAPI.csproj",
               "RelativeDocumentMoniker": "MedidoresAPI\\MedidoresAPI.csproj",
               "ToolTip": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\MedidoresAPI.csproj",
               "RelativeToolTip": "MedidoresAPI\\MedidoresAPI.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-18T12:13:05.593Z"
+              "WhenOpened": "2025-02-18T12:13:05.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "SwaggerExtensions.cs",
               "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\Modules\\SwaggerExtensions.cs",
               "RelativeDocumentMoniker": "MedidoresAPI\\Modules\\SwaggerExtensions.cs",
@@ -241,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "MedidoresAPI.http",
               "DocumentMoniker": "C:\\Users\\GBAIGORRIA\\OneDrive - Cashpower Sudamericana S.A\\Documents\\Trabajos\\Curso-Angular-FelipeGavilan\\MedidoresAPI\\MedidoresAPI\\MedidoresAPI.http",
               "RelativeDocumentMoniker": "MedidoresAPI\\MedidoresAPI.http",

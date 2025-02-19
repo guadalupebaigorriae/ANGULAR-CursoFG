@@ -1,0 +1,12 @@
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\bin\Debug\net9.0\MedidoresAPI.DTO.deps.json
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\bin\Debug\net9.0\MedidoresAPI.DTO.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\bin\Debug\net9.0\MedidoresAPI.DTO.pdb
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\obj\Debug\net9.0\MedidoresAPI.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\obj\Debug\net9.0\MedidoresAPI.DTO.AssemblyInfoInputs.cache
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\obj\Debug\net9.0\MedidoresAPI.DTO.AssemblyInfo.cs
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\obj\Debug\net9.0\MedidoresAPI.DTO.csproj.CoreCompileInputs.cache
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\obj\Debug\net9.0\MedidoresAPI.DTO.sourcelink.json
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\obj\Debug\net9.0\MedidoresAPI.DTO.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\obj\Debug\net9.0\refint\MedidoresAPI.DTO.dll
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\obj\Debug\net9.0\MedidoresAPI.DTO.pdb
+C:\Users\GBAIGORRIA\OneDrive - Cashpower Sudamericana S.A\Documents\Trabajos\Curso-Angular-FelipeGavilan\MedidoresAPI\MedidoresAPI.DTO\obj\Debug\net9.0\ref\MedidoresAPI.DTO.dll

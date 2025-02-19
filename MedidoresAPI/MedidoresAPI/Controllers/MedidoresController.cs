@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using MedidoresAPI.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using MedidoresAPI.DTO;
+using AutoMapper;
 
 namespace MedidoresAPI.Controllers
 {
@@ -13,10 +15,12 @@ namespace MedidoresAPI.Controllers
     {
         private readonly IRepositorioEnMemoria repositorio;
         private readonly ApplicationDbContext context;
+        private readonly IMapper mapper;
 
-        public MedidoresController(ApplicationDbContext context)
+        public MedidoresController(ApplicationDbContext context, IMapper mapper)
         {
             this.context = context;
+            this.mapper = mapper;
             //this.repositorio = repositorio;
         }
 
@@ -38,8 +42,9 @@ namespace MedidoresAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(MedidoresEtty medidor)
+        public async Task<IActionResult> Post([FromBody]MedidoresCreateDTO medidor)
         {
+            var medidorMap = mapper.Map<MedidoresEtty>(medidor);
             if (medidor == null)
             {
                 return BadRequest("El objeto Medidor no puede ser nulo.");
@@ -47,7 +52,7 @@ namespace MedidoresAPI.Controllers
 
             try
             {
-                context.Add(medidor);
+                context.Add(medidorMap);
                 await context.SaveChangesAsync();
 
                 return CreatedAtRoute("ObtenerMedidorPorId", new { id = medidor.numeroMedidor }, medidor);
