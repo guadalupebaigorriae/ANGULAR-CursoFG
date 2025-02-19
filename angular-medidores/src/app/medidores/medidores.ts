@@ -11,3 +11,9 @@ export interface MedidorCreacionDTO{
     sgc: string | null;
     asignadoACliente: number | null;
 }
+
+export interface MedidorEdicionDTO{
+    modelo: string | null;
+    sgc: string | null;
+    asignadoACliente: number | null;
+}

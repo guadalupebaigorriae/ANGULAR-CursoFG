@@ -6,7 +6,8 @@ import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
 import { soloNumerosValidator } from '../../Compartidos/Funciones/validaciones';
 import { EventEmitter } from '@angular/core';
-import { MedidorDTO } from '../medidores';
+import { MedidorDTO, MedidorEdicionDTO } from '../medidores';
+import { MedidoresService } from '../medidores.service';
 
 @Component({
   selector: 'app-editar-medidor',
@@ -14,30 +15,29 @@ import { MedidorDTO } from '../medidores';
   templateUrl: './editar-medidor.component.html',
   styleUrl: './editar-medidor.component.css'
 })
-export class EditarMedidorComponent implements OnInit {
-
-  ngOnInit(): void {
-    if (this.modelo !== undefined){
-        this.form.patchValue(this.modelo);
-    }
-  }
+export class EditarMedidorComponent {
 
   @Input() modelo?: MedidorDTO;
   @Output() posteoFormulario = new EventEmitter<MedidorDTO>();
   
   router = inject(Router);
+  private medidoresService = inject(MedidoresService);
 
   private formbuilder = inject(FormBuilder);
 
   form = this.formbuilder.group({
-    numeroMedidor: ['', {validators: [Validators.required, soloNumerosValidator]}]
+    numeroMedidor: ['', {validators: [Validators.required, soloNumerosValidator]}],
+    modelo: [''], 
+    sgc: [''], 
+    asignadoACliente: [null] 
   })
   guardarCambios(){
-    const medidor = this.form.value as MedidorDTO;
-    this.posteoFormulario.emit(medidor);
-    this.router.navigate(['/medidores/medidores'])
+    const medidor = this.form.value as MedidorEdicionDTO; 
+        this.medidoresService.editar(medidor).subscribe(() => {
+          this.router.navigate(['/medidores/medidores'])
+        });
   }
-
+  
   obtenerErrorCampoNumeroMedidor(): string {
     let numeroMedidor = this.form.controls.numeroMedidor;
 

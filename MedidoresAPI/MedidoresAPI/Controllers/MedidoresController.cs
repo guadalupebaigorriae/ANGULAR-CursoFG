@@ -72,16 +72,23 @@ namespace MedidoresAPI.Controllers
         }
 
         [HttpPut]
-        public IActionResult PutMedidores([FromBody] List<MedidoresEtty> nuevosMedidores)
+        public async Task<IActionResult> PutMedidores([FromBody] MedidoresEtty nuevoMedidor)
         {
+            MedidoresEtty medidor = await GetById(nuevoMedidor.numeroMedidor);
             // Validar los datos entrantes
-            if (nuevosMedidores == null || !nuevosMedidores.Any())
+            if (medidor == null)
             {
                 return BadRequest("La lista de medidores está vacía");
             }
+            
+            medidor.SGC = nuevoMedidor.SGC;
+            medidor.AsignadoACliente = nuevoMedidor.AsignadoACliente;
+            medidor.modelo = nuevoMedidor.modelo;
 
+            context.Medidores.Update(medidor);
+            await context.SaveChangesAsync();
             // Actualizar la lista existente
-            repositorio.UpdateMedidores(nuevosMedidores);
+            //repositorio.UpdateMedidores(nuevosMedidores);
 
             return Ok();
         }

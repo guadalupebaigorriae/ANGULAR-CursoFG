@@ -13,7 +13,7 @@ import { MatTableDataSource, MatTableModule } from '@angular/material/table';
   styleUrl: './medidores.component.css'
 })
 export class MedidoresComponent implements OnInit {
-  displayedColumns: string[] = ['numeroMedidor', 'modelo', 'sgc', 'asignadoa'];
+  displayedColumns: string[] = ['acciones', 'numeroMedidor', 'modelo', 'sgc', 'asignadoa'];
   dataSource = new MatTableDataSource<MedidorDTO>(); 
   medidores: MedidorDTO[] = [];
 

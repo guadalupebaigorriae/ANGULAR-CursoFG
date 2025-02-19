@@ -44,8 +44,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "nuevosMedidores",
-        "Type": "System.Collections.Generic.List\u00601[[MedidoresAPI.Entidades.MedidoresEtty, MedidoresAPI.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Name": "nuevoMedidor",
+        "Type": "MedidoresAPI.Entidades.MedidoresEtty",
         "IsRequired": true
       }
     ],

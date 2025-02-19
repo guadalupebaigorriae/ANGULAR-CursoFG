@@ -1,12 +1,44 @@
 <h2>Editar Medidor</h2>
 <form (submit)="guardarCambios()" [formGroup]="form">
-    <mat-form-field appearance="outline">
-        <mat-label>Número de Medidor</mat-label>
-        <input matInput [formControl]="form.controls.numeroMedidor" />
-        <mat-error>{{obtenerErrorCampoNumeroMedidor()}}</mat-error>
-    </mat-form-field>
+    <div class="row"> 
+        <div class="col-md-4"> 
+            <h2>Crear Medidor</h2>
+        </div>
+    </div>
+    <div class="row"> 
+        <div class="col-md-4"> 
+            <mat-form-field appearance="outline">
+                <mat-label>Número de Medidor</mat-label>
+                <input matInput [formControl]="form.controls.numeroMedidor" />
+                <mat-error>{{obtenerErrorCampoNumeroMedidor()}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="col-md-4"> 
+            <mat-form-field appearance="outline">
+                <mat-label>Modelo</mat-label>
+                <input matInput [formControl]="form.controls.modelo" />
+                <mat-error>{{obtenerErrorCampoNumeroMedidor()}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="col-md-4"> 
+            <mat-form-field appearance="outline">
+                <mat-label>SGC</mat-label>
+                <input matInput [formControl]="form.controls.sgc" />
+                <mat-error>{{obtenerErrorCampoNumeroMedidor()}}</mat-error>
+            </mat-form-field>
+        </div>
+    </div>
+    <div class="row"> 
+        <div class="col-md-4"> 
+            <mat-form-field appearance="outline">
+                <mat-label>Asignado a Cliente</mat-label>
+                <input matInput [formControl]="form.controls.asignadoACliente" />
+                <mat-error>{{obtenerErrorCampoNumeroMedidor()}}</mat-error>
+            </mat-form-field>
+        </div>
+    </div>
     <div class="contenedor-botones">
-        <button mat-flat-button type="button"
+        <button mat-flat-button type="button"  (click)="guardarCambios()"
         [disabled]="form.invalid">Guardar Cambios</button>
         <a mat-stroked-button routerLink="/medidores/medidores">Cancelar</a>
     </div>
