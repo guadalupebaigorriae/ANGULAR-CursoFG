@@ -6,6 +6,7 @@ using MedidoresAPI.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using MedidoresAPI.DTO;
 using AutoMapper;
+using MedidoresAPI.Utilities;
 
 namespace MedidoresAPI.Controllers
 {
@@ -25,9 +26,11 @@ namespace MedidoresAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<List<MedidoresEtty>> Get()
+        public async Task<List<MedidoresEtty>> Get([FromQuery] PaginacionDTO paginacion)
         {
-            return await context.Medidores.ToListAsync();
+            var queryable = context.Medidores;
+            await HttpContext.InsertarParametrosPagCabecera(queryable);
+            return await queryable.Paginar(paginacion).OrderBy(x=> x.numeroMedidor).ToListAsync();
             //var repositorio = new RepositorioEnMemoria();
             //var medidores = repositorio.ObtenerMedidoresAll();
             //return medidores;
