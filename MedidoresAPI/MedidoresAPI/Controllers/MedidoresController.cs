@@ -96,11 +96,11 @@ namespace MedidoresAPI.Controllers
             return Ok();
         }
 
-        [HttpDelete("{id:int}")]
+        [HttpDelete]
         public async Task<IActionResult> Delete(string numeroMedidor)
         {
             var registrosBorrados = await context.Medidores.Where(m => m.numeroMedidor == numeroMedidor).ExecuteDeleteAsync();
-            context.SaveChanges();
+            await context.SaveChangesAsync();
 
             if(registrosBorrados == 0)
             {

@@ -64,6 +64,22 @@
   },
   {
     "ContainingType": "MedidoresAPI.Controllers.MedidoresController",
+    "Method": "Delete",
+    "RelativePath": "api/Medidores",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroMedidor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MedidoresAPI.Controllers.MedidoresController",
     "Method": "GetById",
     "RelativePath": "api/Medidores/{id}",
     "HttpMethod": "GET",

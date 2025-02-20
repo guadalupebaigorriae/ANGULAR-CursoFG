@@ -31,4 +31,8 @@ export class MedidoresService {
   public editar(medidor: MedidorEdicionDTO){
     return this.http.put(this.urlBase, medidor);
   }
+
+  public borrar(numeroMedidor: string){
+    return this.http.delete(`${this.urlBase}?numeroMedidor=${numeroMedidor}`);
+  }
 }
