@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MedidoresAPI.DTO")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MedidoresTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17491707e8f1e8203fb4c4e5ff525ff38cf81d65")]
-[assembly: System.Reflection.AssemblyProductAttribute("MedidoresAPI.DTO")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MedidoresAPI.DTO")]
+[assembly: System.Reflection.AssemblyProductAttribute("MedidoresTest")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MedidoresTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

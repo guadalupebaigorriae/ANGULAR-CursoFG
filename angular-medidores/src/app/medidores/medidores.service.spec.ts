@@ -13,4 +13,10 @@ describe('MedidoresService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+
+  it('Crea el servicio correctamente.', ()=> {
+    const medidoresService = TestBed.inject(MedidoresService);
+    expect(medidoresService).toBeTruthy()
+  })
+
 });
